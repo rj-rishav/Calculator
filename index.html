@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <span class="heading">Calculator</span>
+    <div class="calculator">
+        <div class="cal-body">
+            <div class="display"></div>
+            <div class="btn-body">
+                <table cellspacing="20">
+                    <tr>
+                        <td>
+                            <button class="btn" value="7" onclick="displayUpdate(value)">
+                                <span class="btn-elements">7</span>
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn" value="8" onclick="displayUpdate(value)">
+                                <span class="btn-elements">8</span>
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn" value="9" onclick="displayUpdate(value)">
+                                <span class="btn-elements">9</span>
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn" value="c" onclick="displayUpdate(value)">
+                                <span class="btn-elements">AC</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn" value="4" onclick="displayUpdate(value)" >
+                                <span class="btn-elements">4</span>
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn" value="5" onclick="displayUpdate(value)">
+                                <span class="btn-elements">5</span>
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn" value="6" onclick="displayUpdate(value)">
+                                <span class="btn-elements">6</span>
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn" value="/" onclick="displayUpdate(value)">
+                                <span class="btn-elements">/</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn" value="1" onclick="displayUpdate(value)">
+                                <span class="btn-elements">1</span>
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn" value="2" onclick="displayUpdate(value)">
+                                <span class="btn-elements">2</span>
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn" value="3" onclick="displayUpdate(value)">
+                                <span class="btn-elements">3</span>
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn" value="*" onclick="displayUpdate(value)">
+                                <span class="btn-elements">X</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn" value="0" onclick="displayUpdate(value)">
+                                <span class="btn-elements">0</span>
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn" value="+" onclick="displayUpdate(value)">
+                                <span class="btn-elements">+</span>
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn" value="-" onclick="displayUpdate(value)">
+                                <span class="btn-elements">-</span>
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn" value="=" onclick="displayUpdate(value)">
+                                <span class="btn-elements">=</span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
